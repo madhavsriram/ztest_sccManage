@@ -35,7 +35,7 @@ jobs:
         uses: actions/upload-artifact@master	
         with:	
           name: mta
-          path: ./mta_archives/sccmanagecr_0.0.1.mtar
+          path: ./testdemoztestsscmanage_0.0.1.mtar
         
   deploy:
      needs: build
